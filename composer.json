@@ -1,0 +1,22 @@
+{
+  "name": "lambdasolutions/moodle-filter_tabs",
+  "description": "Lambda Solutions (Filter Tabs 4.5 Fork)",
+  "type": "moodle-filter",
+  "license": "MIT",
+  "authors": [{
+    "name": "Dustin Brisebois",
+    "email": "dustin.brisebois@lambdasolutions.net",
+    "homepage": "https://lambdasolutions.net",
+    "role": "Senior Customer Experience Architect"
+  }],
+  "extra": {
+    "installer-name": "tabs"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "apcu-autoloader": true,
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
